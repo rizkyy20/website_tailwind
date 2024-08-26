@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&family=Silkscreen:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#0C0C0C",
+              secondary: "#E85C0D",
+            },
+            borderWidth: {
+              satu: "1px",
+            },
+            fontFamily: {
+              poppins: "Poppins",
+              silk: "Silkscreen",
+            },
+          },
+        },
+      };
+    </script>
+    <title>Welcome</title>
+  </head>
+  <body class="bg-primary">
+    <nav>
+      <div
+        class="flex justify-between items-center width-100% border-b-satu border-solid border-white p-4"
+      >
+        <div class="">
+          <h1 class="text-white font-silk text-xl">
+            <span class="text-secondary">XII</span> IPS 4
+          </h1>
+        </div>
+        <div class="">
+          <button class="rounded-full text-black bg-white w-28 font-poppins">
+            follow
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- body section-->
+    <div>
+      <h1
+        class="text-white font-poppins tracking-widest text-center text-4xl mt-12 font-bold"
+      >
+        WELCOME FOURTERHIT
+      </h1>
+    </div>
+    <div class="grid grid-rows-3 grid-flow-col gap-4 mt-36 flex justify-center">
+      <div class="row-span-3 flex justify-end">
+        <img
+          src="Assets/Images/IMG-20230724-WA0070.jpg"
+          style="width: 450px; height: 300px"
+          class="rounded-md shadow-white shadow-md mr-4"
+          alt=""
+        />
+      </div>
+      <div class="col-span-2">
+        <h2 class="mt-10 text-white font-poppins font-semibold text-xl">
+          Lorem ipsum dolor sit.
+        </h2>
+      </div>
+      <div class="row-span-2 w-80">
+        <p class="flex flex-wrap text-white font-thin text-start">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
+          doloribus dolorem natus ipsam, totam dolor id mollitia nemo eaque
+          magni, nostrum harum aut eligendi quidem.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
